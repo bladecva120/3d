@@ -31,7 +31,7 @@ section>.box>div{
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transform: rotateX(-20deg) rotateY(25deg) translate3d(-200px,-40px,400px);
+    transform: rotateX(-30deg) rotateY(30deg) translate3d(-200px,-40px,200px);
 } 
 
 section>.box>div>span{

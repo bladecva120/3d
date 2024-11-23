@@ -12,7 +12,7 @@ body{
 
 section{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 section>.box{
@@ -31,7 +31,7 @@ section>.box>div{
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transform: rotateX(-20deg) rotateY(25deg) translate3d(-70px,-40px,250px);
+    transform: rotateX(-20deg) rotateY(25deg) translate3d(-200px,-40px,400px);
 } 
 
 section>.box>div>span{
@@ -53,16 +53,12 @@ section>.box>div>span>video{
     object-fit: cover;
     filter: blur(0px);
 }
-section>.box>div>span>img{
+section>span>img#bandeira{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
-    object-fit: cover;
-}
-section>.box>div>span>img#amores{
-    object-fit: fill;
 }
 
 section>video{
